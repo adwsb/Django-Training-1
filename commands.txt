@@ -1,0 +1,5 @@
+django-admin.py startproject profiles_project .
+python manage.py startapp profiles_api
+
+<open root-project: profiles_project;
+add 'rest_framework', 'rest_framework.authtoken', 'profiles_api', to INSTALLED_APPS>
